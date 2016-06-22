@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="Contact" syncable="YES">
+        <attribute name="cn" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="familyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="givenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" attributeType="String" indexed="YES" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Contacts" representedClassName="Contacts" syncable="YES">
+        <attribute name="departmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddresses" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="familyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="givenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="jobTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="namePrefix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameSuffix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumbers" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="phoneticFamilyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneticGivenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneticMiddleName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalAddresses" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="previousFamilyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="EmailAddresses" representedClassName="EmailAddresses" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PhoneNumbers" representedClassName="PhoneNumbers" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="hyper.isPrimaryKey" value="true"/>
+            </userInfo>
+        </attribute>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="useridentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contact" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Contacts" positionX="-54" positionY="36" width="128" height="345"/>
+        <element name="PhoneNumbers" positionX="-36" positionY="153" width="128" height="105"/>
+        <element name="EmailAddresses" positionX="-18" positionY="162" width="128" height="90"/>
+    </elements>
+</model>

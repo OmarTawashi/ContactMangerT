@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SF-UI-Display-Bold.otf">
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+            <string>SFUIDisplay-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="idSearchResultCell" rowHeight="230" id="iNK-pP-Uy3" customClass="SearchResultCell" customModule="AddressBookContacts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="249"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iNK-pP-Uy3" id="Sxn-wa-iMl">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="248"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jac-Nw-r8P">
+                        <rect key="frame" x="18" y="16" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="FDD-p1-XkF"/>
+                            <constraint firstAttribute="height" constant="60" id="f97-b6-1za"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Omar Tawashi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnx-Oy-Z4u">
+                        <rect key="frame" x="93" y="21" width="312" height="17"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FistName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwp-ln-LOy">
+                        <rect key="frame" x="93" y="48" width="60" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="jUh-VK-Db5"/>
+                            <constraint firstAttribute="height" constant="22" id="k5C-vc-zac"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LastName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2i-J3-P1P">
+                        <rect key="frame" x="93" y="78" width="64" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="43y-YK-Y8a"/>
+                            <constraint firstAttribute="height" constant="22" id="7ID-N7-5S1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Omar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geU-vX-Qq3">
+                        <rect key="frame" x="168" y="48" width="35" height="17"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tawashi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vP-2U-MFP">
+                        <rect key="frame" x="166" y="78" width="50" height="17"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phones Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaH-1d-lKZ">
+                        <rect key="frame" x="93" y="108" width="103" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="103" id="AoR-vN-oi2"/>
+                            <constraint firstAttribute="height" constant="22" id="G8f-5U-eZW"/>
+                            <constraint firstAttribute="width" constant="103" id="IR8-4f-jiD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="123456789 123456789 \n 123456789" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUP-PT-sNz">
+                        <rect key="frame" x="196" y="108" width="209" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="hy3-jH-TDd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emails" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0m-p4-0yL">
+                        <rect key="frame" x="93" y="151" width="103" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="103" id="0XY-1S-Uh4"/>
+                            <constraint firstAttribute="height" constant="22" id="AHP-WZ-dvg"/>
+                            <constraint firstAttribute="width" constant="103" id="mZA-ku-WdC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="a@a.com a@a.com a@a.com" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Lu-uk-M6U">
+                        <rect key="frame" x="196" y="151" width="209" height="17"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="13.899999618530273"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="z2i-J3-P1P" firstAttribute="leading" secondItem="kwp-ln-LOy" secondAttribute="leading" id="0E9-84-23U"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2Lu-uk-M6U" secondAttribute="trailing" id="0z8-Il-EdZ"/>
+                    <constraint firstItem="4vP-2U-MFP" firstAttribute="top" secondItem="z2i-J3-P1P" secondAttribute="top" id="5cs-j8-Hpa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Gnx-Oy-Z4u" secondAttribute="trailing" id="9ub-yH-dc3"/>
+                    <constraint firstItem="FUP-PT-sNz" firstAttribute="leading" secondItem="PaH-1d-lKZ" secondAttribute="trailing" id="AB0-OU-Rft"/>
+                    <constraint firstItem="z2i-J3-P1P" firstAttribute="top" secondItem="kwp-ln-LOy" secondAttribute="bottom" constant="8" id="BJi-jU-CrE"/>
+                    <constraint firstItem="kwp-ln-LOy" firstAttribute="leading" secondItem="Gnx-Oy-Z4u" secondAttribute="leading" id="Erx-MF-K4P"/>
+                    <constraint firstItem="PaH-1d-lKZ" firstAttribute="leading" secondItem="z2i-J3-P1P" secondAttribute="leading" id="IkQ-gO-UTr"/>
+                    <constraint firstItem="2Lu-uk-M6U" firstAttribute="leading" secondItem="L0m-p4-0yL" secondAttribute="trailing" id="Kav-Jd-U0Z"/>
+                    <constraint firstItem="Gnx-Oy-Z4u" firstAttribute="top" secondItem="Jac-Nw-r8P" secondAttribute="top" constant="5" id="LBh-We-Bqg"/>
+                    <constraint firstItem="L0m-p4-0yL" firstAttribute="leading" secondItem="PaH-1d-lKZ" secondAttribute="leading" id="M9l-Zu-aFx"/>
+                    <constraint firstItem="Jac-Nw-r8P" firstAttribute="leading" secondItem="Sxn-wa-iMl" secondAttribute="leadingMargin" constant="10" id="Sho-MQ-Sa8"/>
+                    <constraint firstItem="PaH-1d-lKZ" firstAttribute="top" secondItem="z2i-J3-P1P" secondAttribute="bottom" constant="8" id="SuF-Ab-DmW"/>
+                    <constraint firstItem="geU-vX-Qq3" firstAttribute="top" secondItem="kwp-ln-LOy" secondAttribute="top" id="T9n-Sk-WQg"/>
+                    <constraint firstItem="Gnx-Oy-Z4u" firstAttribute="leading" secondItem="Sxn-wa-iMl" secondAttribute="trailingMargin" multiplier="0.2" id="VM0-aQ-3cY"/>
+                    <constraint firstItem="2Lu-uk-M6U" firstAttribute="top" secondItem="L0m-p4-0yL" secondAttribute="top" id="WUw-1v-Ibg"/>
+                    <constraint firstItem="Gnx-Oy-Z4u" firstAttribute="leading" secondItem="Jac-Nw-r8P" secondAttribute="trailing" constant="15" id="XVT-ps-Phd"/>
+                    <constraint firstItem="L0m-p4-0yL" firstAttribute="top" secondItem="FUP-PT-sNz" secondAttribute="bottom" constant="10" id="ebl-rX-z9o"/>
+                    <constraint firstItem="FUP-PT-sNz" firstAttribute="top" secondItem="PaH-1d-lKZ" secondAttribute="top" id="fLV-Qx-Hgp"/>
+                    <constraint firstItem="geU-vX-Qq3" firstAttribute="leading" secondItem="kwp-ln-LOy" secondAttribute="trailing" constant="15" id="kFa-uF-jix"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="FUP-PT-sNz" secondAttribute="trailing" id="oRj-d6-ca8"/>
+                    <constraint firstItem="Jac-Nw-r8P" firstAttribute="top" secondItem="Sxn-wa-iMl" secondAttribute="top" constant="16" id="oXE-rT-chd"/>
+                    <constraint firstItem="kwp-ln-LOy" firstAttribute="top" secondItem="Gnx-Oy-Z4u" secondAttribute="bottom" constant="10" id="qd2-5X-v18"/>
+                    <constraint firstItem="4vP-2U-MFP" firstAttribute="leading" secondItem="z2i-J3-P1P" secondAttribute="trailing" constant="9" id="vXQ-9Q-sOa"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="VM0-aQ-3cY"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="67" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="FirsNameLabel" destination="geU-vX-Qq3" id="Ow7-8M-6bP"/>
+                <outlet property="LastNameLabel" destination="4vP-2U-MFP" id="cUO-x1-FfB"/>
+                <outlet property="PhoneNumberLabel" destination="FUP-PT-sNz" id="kz2-tH-85d"/>
+                <outlet property="avatar_Image" destination="Jac-Nw-r8P" id="BcH-if-DGA"/>
+                <outlet property="emailsLabel" destination="2Lu-uk-M6U" id="063-VV-hWb"/>
+                <outlet property="name_Label" destination="Gnx-Oy-Z4u" id="BDv-sP-3mt"/>
+            </connections>
+            <point key="canvasLocation" x="487.5" y="478.5"/>
+        </tableViewCell>
+    </objects>
+</document>

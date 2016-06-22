@@ -10,6 +10,35 @@
 		07553CD81D1AB00F00C5750E /* ContactManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 07553CD71D1AB00F00C5750E /* ContactManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07553CDF1D1AB00F00C5750E /* ContactManger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07553CD41D1AB00F00C5750E /* ContactManger.framework */; };
 		07553CE41D1AB00F00C5750E /* ContactMangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CE31D1AB00F00C5750E /* ContactMangerTests.swift */; };
+		07553CF11D1AB04300C5750E /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CEF1D1AB04300C5750E /* UIViewController+Alerts.swift */; };
+		07553CF21D1AB04300C5750E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07553CF01D1AB04300C5750E /* Main.storyboard */; };
+		07553CFB1D1AB05600C5750E /* ContactsThingy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF41D1AB05600C5750E /* ContactsThingy.swift */; };
+		07553CFC1D1AB05600C5750E /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF51D1AB05600C5750E /* String+Email.swift */; };
+		07553CFD1D1AB05600C5750E /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF61D1AB05600C5750E /* ContactEntry.swift */; };
+		07553CFE1D1AB05600C5750E /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF71D1AB05600C5750E /* Contacts.swift */; };
+		07553CFF1D1AB05600C5750E /* PhoneNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF81D1AB05600C5750E /* PhoneNumbers.swift */; };
+		07553D001D1AB05600C5750E /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 07553CF91D1AB05600C5750E /* Model.xcdatamodel */; };
+		07553D011D1AB05600C5750E /* EmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553CFA1D1AB05600C5750E /* EmailAddresses.swift */; };
+		07553D0E1D1AB06F00C5750E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D031D1AB06F00C5750E /* ViewController.swift */; };
+		07553D0F1D1AB06F00C5750E /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D041D1AB06F00C5750E /* AddressBookViewController.swift */; };
+		07553D101D1AB06F00C5750E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D051D1AB06F00C5750E /* ContactsViewController.swift */; };
+		07553D111D1AB06F00C5750E /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D061D1AB06F00C5750E /* CreateContactViewController.swift */; };
+		07553D121D1AB06F00C5750E /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D071D1AB06F00C5750E /* PhoneNumber.swift */; };
+		07553D131D1AB06F00C5750E /* SerachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D081D1AB06F00C5750E /* SerachViewController.swift */; };
+		07553D141D1AB06F00C5750E /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D091D1AB06F00C5750E /* ContactTableViewCell.swift */; };
+		07553D151D1AB06F00C5750E /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07553D0A1D1AB06F00C5750E /* ContactTableViewCell.xib */; };
+		07553D161D1AB06F00C5750E /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D0B1D1AB06F00C5750E /* SearchResultCell.swift */; };
+		07553D171D1AB06F00C5750E /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07553D0C1D1AB06F00C5750E /* SearchResultCell.xib */; };
+		07553D181D1AB06F00C5750E /* UpdateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D0D1D1AB06F00C5750E /* UpdateContactViewController.swift */; };
+		07553D221D1AB08500C5750E /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1A1D1AB08500C5750E /* TestCheck.swift */; };
+		07553D231D1AB08500C5750E /* DATAStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1B1D1AB08500C5750E /* DATAStack.swift */; };
+		07553D241D1AB08500C5750E /* NSEntityDescription+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1C1D1AB08500C5750E /* NSEntityDescription+Sync.swift */; };
+		07553D251D1AB08500C5750E /* NSManagedObjectContext+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1D1D1AB08500C5750E /* NSManagedObjectContext+Sync.swift */; };
+		07553D261D1AB08500C5750E /* locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1E1D1AB08500C5750E /* locking.swift */; };
+		07553D271D1AB08500C5750E /* NSManagedObject+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D1F1D1AB08500C5750E /* NSManagedObject+Sync.swift */; };
+		07553D281D1AB08500C5750E /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D201D1AB08500C5750E /* Sync.swift */; };
+		07553D291D1AB08500C5750E /* NSArray+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D211D1AB08500C5750E /* NSArray+Sync.swift */; };
+		07553D2C1D1AB0DE00C5750E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07553D2B1D1AB0DE00C5750E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +58,35 @@
 		07553CDE1D1AB00F00C5750E /* ContactMangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactMangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07553CE31D1AB00F00C5750E /* ContactMangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMangerTests.swift; sourceTree = "<group>"; };
 		07553CE51D1AB00F00C5750E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07553CEF1D1AB04300C5750E /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+		07553CF01D1AB04300C5750E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		07553CF41D1AB05600C5750E /* ContactsThingy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsThingy.swift; sourceTree = "<group>"; };
+		07553CF51D1AB05600C5750E /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		07553CF61D1AB05600C5750E /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
+		07553CF71D1AB05600C5750E /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		07553CF81D1AB05600C5750E /* PhoneNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumbers.swift; sourceTree = "<group>"; };
+		07553CF91D1AB05600C5750E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		07553CFA1D1AB05600C5750E /* EmailAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAddresses.swift; sourceTree = "<group>"; };
+		07553D031D1AB06F00C5750E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07553D041D1AB06F00C5750E /* AddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
+		07553D051D1AB06F00C5750E /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		07553D061D1AB06F00C5750E /* CreateContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContactViewController.swift; sourceTree = "<group>"; };
+		07553D071D1AB06F00C5750E /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		07553D081D1AB06F00C5750E /* SerachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerachViewController.swift; sourceTree = "<group>"; };
+		07553D091D1AB06F00C5750E /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		07553D0A1D1AB06F00C5750E /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		07553D0B1D1AB06F00C5750E /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		07553D0C1D1AB06F00C5750E /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		07553D0D1D1AB06F00C5750E /* UpdateContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateContactViewController.swift; sourceTree = "<group>"; };
+		07553D1A1D1AB08500C5750E /* TestCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCheck.swift; sourceTree = "<group>"; };
+		07553D1B1D1AB08500C5750E /* DATAStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATAStack.swift; sourceTree = "<group>"; };
+		07553D1C1D1AB08500C5750E /* NSEntityDescription+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSEntityDescription+Sync.swift"; sourceTree = "<group>"; };
+		07553D1D1D1AB08500C5750E /* NSManagedObjectContext+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Sync.swift"; sourceTree = "<group>"; };
+		07553D1E1D1AB08500C5750E /* locking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locking.swift; sourceTree = "<group>"; };
+		07553D1F1D1AB08500C5750E /* NSManagedObject+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Sync.swift"; sourceTree = "<group>"; };
+		07553D201D1AB08500C5750E /* Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
+		07553D211D1AB08500C5750E /* NSArray+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Sync.swift"; sourceTree = "<group>"; };
+		07553D2B1D1AB0DE00C5750E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +129,11 @@
 		07553CD61D1AB00F00C5750E /* ContactManger */ = {
 			isa = PBXGroup;
 			children = (
+				07553D2A1D1AB0C700C5750E /* Resources */,
+				07553D191D1AB07900C5750E /* Sync */,
+				07553D021D1AB06100C5750E /* ViewControllers */,
+				07553CF31D1AB04C00C5750E /* Model */,
+				07553CEE1D1AB02A00C5750E /* Storyborad */,
 				07553CD71D1AB00F00C5750E /* ContactManger.h */,
 				07553CD91D1AB00F00C5750E /* Info.plist */,
 			);
@@ -84,6 +147,70 @@
 				07553CE51D1AB00F00C5750E /* Info.plist */,
 			);
 			path = ContactMangerTests;
+			sourceTree = "<group>";
+		};
+		07553CEE1D1AB02A00C5750E /* Storyborad */ = {
+			isa = PBXGroup;
+			children = (
+				07553CEF1D1AB04300C5750E /* UIViewController+Alerts.swift */,
+				07553CF01D1AB04300C5750E /* Main.storyboard */,
+			);
+			name = Storyborad;
+			sourceTree = "<group>";
+		};
+		07553CF31D1AB04C00C5750E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07553CF41D1AB05600C5750E /* ContactsThingy.swift */,
+				07553CF51D1AB05600C5750E /* String+Email.swift */,
+				07553CF61D1AB05600C5750E /* ContactEntry.swift */,
+				07553CF71D1AB05600C5750E /* Contacts.swift */,
+				07553CF81D1AB05600C5750E /* PhoneNumbers.swift */,
+				07553CF91D1AB05600C5750E /* Model.xcdatamodel */,
+				07553CFA1D1AB05600C5750E /* EmailAddresses.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07553D021D1AB06100C5750E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				07553D031D1AB06F00C5750E /* ViewController.swift */,
+				07553D041D1AB06F00C5750E /* AddressBookViewController.swift */,
+				07553D051D1AB06F00C5750E /* ContactsViewController.swift */,
+				07553D061D1AB06F00C5750E /* CreateContactViewController.swift */,
+				07553D071D1AB06F00C5750E /* PhoneNumber.swift */,
+				07553D081D1AB06F00C5750E /* SerachViewController.swift */,
+				07553D091D1AB06F00C5750E /* ContactTableViewCell.swift */,
+				07553D0A1D1AB06F00C5750E /* ContactTableViewCell.xib */,
+				07553D0B1D1AB06F00C5750E /* SearchResultCell.swift */,
+				07553D0C1D1AB06F00C5750E /* SearchResultCell.xib */,
+				07553D0D1D1AB06F00C5750E /* UpdateContactViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		07553D191D1AB07900C5750E /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				07553D1A1D1AB08500C5750E /* TestCheck.swift */,
+				07553D1B1D1AB08500C5750E /* DATAStack.swift */,
+				07553D1C1D1AB08500C5750E /* NSEntityDescription+Sync.swift */,
+				07553D1D1D1AB08500C5750E /* NSManagedObjectContext+Sync.swift */,
+				07553D1E1D1AB08500C5750E /* locking.swift */,
+				07553D1F1D1AB08500C5750E /* NSManagedObject+Sync.swift */,
+				07553D201D1AB08500C5750E /* Sync.swift */,
+				07553D211D1AB08500C5750E /* NSArray+Sync.swift */,
+			);
+			name = Sync;
+			sourceTree = "<group>";
+		};
+		07553D2A1D1AB0C700C5750E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07553D2B1D1AB0DE00C5750E /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07553D151D1AB06F00C5750E /* ContactTableViewCell.xib in Resources */,
+				07553D171D1AB06F00C5750E /* SearchResultCell.xib in Resources */,
+				07553D2C1D1AB0DE00C5750E /* Assets.xcassets in Resources */,
+				07553CF21D1AB04300C5750E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +325,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07553D291D1AB08500C5750E /* NSArray+Sync.swift in Sources */,
+				07553D0F1D1AB06F00C5750E /* AddressBookViewController.swift in Sources */,
+				07553D101D1AB06F00C5750E /* ContactsViewController.swift in Sources */,
+				07553D001D1AB05600C5750E /* Model.xcdatamodel in Sources */,
+				07553CF11D1AB04300C5750E /* UIViewController+Alerts.swift in Sources */,
+				07553CFF1D1AB05600C5750E /* PhoneNumbers.swift in Sources */,
+				07553D261D1AB08500C5750E /* locking.swift in Sources */,
+				07553D111D1AB06F00C5750E /* CreateContactViewController.swift in Sources */,
+				07553D221D1AB08500C5750E /* TestCheck.swift in Sources */,
+				07553D241D1AB08500C5750E /* NSEntityDescription+Sync.swift in Sources */,
+				07553D161D1AB06F00C5750E /* SearchResultCell.swift in Sources */,
+				07553D281D1AB08500C5750E /* Sync.swift in Sources */,
+				07553D141D1AB06F00C5750E /* ContactTableViewCell.swift in Sources */,
+				07553D271D1AB08500C5750E /* NSManagedObject+Sync.swift in Sources */,
+				07553D251D1AB08500C5750E /* NSManagedObjectContext+Sync.swift in Sources */,
+				07553D0E1D1AB06F00C5750E /* ViewController.swift in Sources */,
+				07553CFB1D1AB05600C5750E /* ContactsThingy.swift in Sources */,
+				07553CFC1D1AB05600C5750E /* String+Email.swift in Sources */,
+				07553D011D1AB05600C5750E /* EmailAddresses.swift in Sources */,
+				07553D121D1AB06F00C5750E /* PhoneNumber.swift in Sources */,
+				07553D231D1AB08500C5750E /* DATAStack.swift in Sources */,
+				07553D181D1AB06F00C5750E /* UpdateContactViewController.swift in Sources */,
+				07553CFD1D1AB05600C5750E /* ContactEntry.swift in Sources */,
+				07553D131D1AB06F00C5750E /* SerachViewController.swift in Sources */,
+				07553CFE1D1AB05600C5750E /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
