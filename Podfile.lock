@@ -1,0 +1,23 @@
+PODS:
+  - DATAFilter (0.10.0):
+    - DATAObjectIDs (~> 0.5.1)
+  - DATAObjectIDs (0.5.1)
+  - NSEntityDescription-SYNCPrimaryKey (1.2.3):
+    - NSString-HYPNetworking (~> 1.0.2)
+  - NSManagedObject-HYPPropertyMapper (3.6.9):
+    - NSEntityDescription-SYNCPrimaryKey (~> 1.2.3)
+    - NSString-HYPNetworking (~> 1.0.2)
+  - NSString-HYPNetworking (1.0.2)
+
+DEPENDENCIES:
+  - DATAFilter
+  - NSManagedObject-HYPPropertyMapper
+
+SPEC CHECKSUMS:
+  DATAFilter: b6662b05dd0dcf658d526aa0f9095bb202d7b10e
+  DATAObjectIDs: 33db74dd1c858c2d22a45a4013c95f1082182e4e
+  NSEntityDescription-SYNCPrimaryKey: 9dbb89d7cbc1bea196dd935725bfcf3c0ff4249c
+  NSManagedObject-HYPPropertyMapper: 1a34418531715f01520eb32abcd2c183952ea630
+  NSString-HYPNetworking: 7c18e44ca9529d2f74a30a1c2a7a787da76198c1
+
+COCOAPODS: 0.39.0

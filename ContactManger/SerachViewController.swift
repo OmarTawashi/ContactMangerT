@@ -32,8 +32,9 @@ class SerachViewController: UIViewController , UITableViewDelegate, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tblSearchResults.registerNib(UINib(nibName: "SearchResultCell", bundle: nil), forCellReuseIdentifier: "idSearchResultCell")
+        let bundle = NSBundle(forClass: ContactsViewController.self)
+
+        tblSearchResults.registerNib(UINib(nibName: "SearchResultCell", bundle: bundle), forCellReuseIdentifier: "idSearchResultCell")
         
         searchBar.placeholder = "Serach Name"
         //  searchBar.sizeToFit()

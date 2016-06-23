@@ -1,0 +1,6 @@
+framework module Pods_ContactManger {
+  umbrella header "Pods-ContactManger-umbrella.h"
+
+  export *
+  module * { export * }
+}

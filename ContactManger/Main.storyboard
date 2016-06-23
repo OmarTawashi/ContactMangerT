@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="Ht9-R5-Qzf">
             <objects>
-                <viewController id="J6H-OG-Ype" customClass="ViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J6H-OG-Ype" customClass="ViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nab-rC-DUF"/>
                         <viewControllerLayoutGuide type="bottom" id="dXS-g0-kjd"/>
@@ -96,7 +96,7 @@
         <!--Address Book View Controller-->
         <scene sceneID="Q2F-D8-bpv">
             <objects>
-                <viewController id="VnV-1q-Ajs" customClass="AddressBookViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VnV-1q-Ajs" customClass="AddressBookViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BbB-Ua-Xvk"/>
                         <viewControllerLayoutGuide type="bottom" id="30w-dK-b8f"/>
@@ -185,7 +185,7 @@
         <!--Create Contact View Controller-->
         <scene sceneID="taI-1f-vDd">
             <objects>
-                <viewController id="cd4-E2-sAR" customClass="CreateContactViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cd4-E2-sAR" customClass="CreateContactViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lLK-qH-lCW"/>
                         <viewControllerLayoutGuide type="bottom" id="B7d-7X-Edj"/>
@@ -339,7 +339,7 @@
         <!--Contacts View Controller-->
         <scene sceneID="JcF-3k-CeR">
             <objects>
-                <viewController id="iF4-LU-E9h" customClass="ContactsViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iF4-LU-E9h" customClass="ContactsViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kvn-2v-wMk"/>
                         <viewControllerLayoutGuide type="bottom" id="jVB-e6-GP0"/>
@@ -464,7 +464,7 @@
         <!--Update Contact View Controller-->
         <scene sceneID="fAD-LW-4tJ">
             <objects>
-                <viewController storyboardIdentifier="UpdateContactViewController" id="gz3-oe-TRF" customClass="UpdateContactViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UpdateContactViewController" id="gz3-oe-TRF" customClass="UpdateContactViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sp1-4t-cxI"/>
                         <viewControllerLayoutGuide type="bottom" id="grc-mK-a9s"/>
@@ -636,7 +636,7 @@
         <!--Serach View Controller-->
         <scene sceneID="6Kb-AX-JEI">
             <objects>
-                <viewController storyboardIdentifier="SerachViewController" id="Q0R-Nb-zCY" customClass="SerachViewController" customModule="ContactUCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SerachViewController" id="Q0R-Nb-zCY" customClass="SerachViewController" customModule="ContactManger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IiK-ek-Rt5"/>
                         <viewControllerLayoutGuide type="bottom" id="p4t-y6-C0l"/>

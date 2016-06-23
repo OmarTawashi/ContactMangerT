@@ -39,7 +39,9 @@ let keys = [CNContactIdentifierKey,CNContactNamePrefixKey,CNContactGivenNameKey,
         
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.registerNib(UINib(nibName: "ContactTableViewCell", bundle: nil), forCellReuseIdentifier: "ContactTableViewCell")
+        let bundle = NSBundle(forClass: ContactsViewController.self)
+
+        tableView.registerNib(UINib(nibName: "ContactTableViewCell", bundle: bundle), forCellReuseIdentifier: "ContactTableViewCell")
         NSNotificationCenter.defaultCenter().addObserver(
             self,
             selector: #selector(ContactsViewController.addressBookDidChange(_:)),

@@ -25,7 +25,9 @@ class AddressBookViewController: UIViewController, UITableViewDelegate, UITableV
         print(keys)
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.registerNib(UINib(nibName: "ContactTableViewCell", bundle: nil), forCellReuseIdentifier: "ContactTableViewCell")
+        let bundle = NSBundle(forClass: ContactsViewController.self)
+
+        tableView.registerNib(UINib(nibName: "ContactTableViewCell", bundle: bundle), forCellReuseIdentifier: "ContactTableViewCell")
         
         if let addressBook = ABAddressBookCreateWithOptions(nil, nil) {
             
