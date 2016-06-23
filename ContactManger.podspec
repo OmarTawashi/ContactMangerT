@@ -1,3 +1,5 @@
+
+
 Pod::Spec.new do |s|
 
 # 1
@@ -8,7 +10,7 @@ s.summary = "ContactManger lets a user browse contact framework."
 s.requires_arc = true
 
 # 2
-s.version = “0.1.1”
+s.version = "0.1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
