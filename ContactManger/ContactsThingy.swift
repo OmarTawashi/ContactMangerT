@@ -18,10 +18,21 @@ class ContactsThingy {
 
     init(){
         //ergegegergerg
-        var modelBundle = NSBundle(identifier: "unitone.ContactManger")
+        
+        
+        let podBundle = NSBundle(forClass: ContactsThingy.self)
+        
+        let bundleURL = podBundle.URLForResource("ContactManger", withExtension: "bundle")
+        
+        print(podBundle)
+        print(bundleURL)
+      //  let bundle = NSBundle(URL: bundleURL!)!
+        
+        
+        var modelBundle = NSBundle(identifier: "unitone.ContactManger.ContactManger")
         
         print(modelBundle)
-        dataStack = DATAStack(modelName: "Model", bundle: modelBundle!, storeType:  .SQLite)
+        dataStack = DATAStack(modelName: "Model", bundle: podBundle, storeType:  .SQLite)
     }
     
     

@@ -41,5 +41,6 @@ s.dependency 'DATAFilter'
 s.source_files = "ContactManger/**/*.{swift}"
 
 # 9
-s.resources = "ContactManger/**/*.{png,jpeg,jpg,storyboard,xib}"
-end
+s.resources = "ContactManger/**/*.{xcdatamodeld,png,jpeg,jpg,storyboard,xib}"
+
+ end

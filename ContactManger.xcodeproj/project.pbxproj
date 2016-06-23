@@ -39,6 +39,7 @@
 		07553D281D1AB08500C5750E /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D201D1AB08500C5750E /* Sync.swift */; };
 		07553D291D1AB08500C5750E /* NSArray+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D211D1AB08500C5750E /* NSArray+Sync.swift */; };
 		07553D2C1D1AB0DE00C5750E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07553D2B1D1AB0DE00C5750E /* Assets.xcassets */; };
+		079D804D1D1BFD530017BC9E /* Model.xcdatamodel in Resources */ = {isa = PBXBuildFile; fileRef = 07553CF91D1AB05600C5750E /* Model.xcdatamodel */; };
 		69242E08E7D61E72FA1FF07B /* Pods_ContactManger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848EE759FAF3D2929A4CFEA8 /* Pods_ContactManger.framework */; };
 /* End PBXBuildFile section */
 
@@ -173,7 +174,6 @@
 				07553CF61D1AB05600C5750E /* ContactEntry.swift */,
 				07553CF71D1AB05600C5750E /* Contacts.swift */,
 				07553CF81D1AB05600C5750E /* PhoneNumbers.swift */,
-				07553CF91D1AB05600C5750E /* Model.xcdatamodel */,
 				07553CFA1D1AB05600C5750E /* EmailAddresses.swift */,
 			);
 			name = Model;
@@ -215,6 +215,7 @@
 		07553D2A1D1AB0C700C5750E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				07553CF91D1AB05600C5750E /* Model.xcdatamodel */,
 				07553D2B1D1AB0DE00C5750E /* Assets.xcassets */,
 			);
 			name = Resources;
@@ -330,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079D804D1D1BFD530017BC9E /* Model.xcdatamodel in Resources */,
 				07553D151D1AB06F00C5750E /* ContactTableViewCell.xib in Resources */,
 				07553D171D1AB06F00C5750E /* SearchResultCell.xib in Resources */,
 				07553D2C1D1AB0DE00C5750E /* Assets.xcassets in Resources */,
