@@ -18,7 +18,7 @@ class ContactsThingy {
 
     init(){
         
-        var modelBundle = NSBundle(identifier: "Omar-Al-tawashi.ContactManger")
+        var modelBundle = NSBundle(identifier: "unitone.ContactManger")
         
         print(modelBundle)
         dataStack = DATAStack(modelName: "Model", bundle: modelBundle!, storeType:  .SQLite)
