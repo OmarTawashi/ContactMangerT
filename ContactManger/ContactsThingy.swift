@@ -14,7 +14,11 @@ class ContactsThingy {
     let contacts = CNContactStore()
     
     static let sharedInstance = ContactsThingy()
-    lazy var dataStack: DATAStack = DATAStack(modelName: "Model")
+ //   lazy var dataStack: DATAStack = DATAStack(modelName: "Model")
+     
+     static  var modelBundle = NSBundle(identifier: "Omar-Al-tawashi.ContactManger")
+
+    lazy var dataStack: DATAStack = DATAStack(modelName: "Model", bundle: modelBundle!, storeType:  .SQLite)
 
     init(){
         
