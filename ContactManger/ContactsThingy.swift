@@ -17,7 +17,7 @@ class ContactsThingy {
     lazy var dataStack: DATAStack = DATAStack(modelName: "Model")
 
     init(){
-        
+        //ergegegergerg
         var modelBundle = NSBundle(identifier: "unitone.ContactManger")
         
         print(modelBundle)
