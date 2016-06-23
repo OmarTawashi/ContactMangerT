@@ -18,7 +18,13 @@ class ContactsThingy {
 
     init(){
         
+        var modelBundle = NSBundle(identifier: "Omar-Al-tawashi.ContactManger")
+        
+        print(modelBundle)
+        dataStack = DATAStack(modelName: "Model", bundle: modelBundle!, storeType:  .SQLite)
     }
+    
+    
     
     func contactStoreDidChange(notification: NSNotification) {
         NSLog("%@", notification)
