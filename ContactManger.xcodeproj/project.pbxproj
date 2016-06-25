@@ -39,6 +39,8 @@
 		07553D281D1AB08500C5750E /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D201D1AB08500C5750E /* Sync.swift */; };
 		07553D291D1AB08500C5750E /* NSArray+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07553D211D1AB08500C5750E /* NSArray+Sync.swift */; };
 		07553D2C1D1AB0DE00C5750E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07553D2B1D1AB0DE00C5750E /* Assets.xcassets */; };
+		077336BD1D1E5E260050E4A3 /* ContactSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077336BC1D1E5E260050E4A3 /* ContactSync.swift */; };
+		077336BF1D1E5E8E0050E4A3 /* ContactSyncDeleget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077336BE1D1E5E8E0050E4A3 /* ContactSyncDeleget.swift */; };
 		079D804D1D1BFD530017BC9E /* Model.xcdatamodel in Resources */ = {isa = PBXBuildFile; fileRef = 07553CF91D1AB05600C5750E /* Model.xcdatamodel */; };
 		69242E08E7D61E72FA1FF07B /* Pods_ContactManger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848EE759FAF3D2929A4CFEA8 /* Pods_ContactManger.framework */; };
 /* End PBXBuildFile section */
@@ -89,6 +91,8 @@
 		07553D201D1AB08500C5750E /* Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
 		07553D211D1AB08500C5750E /* NSArray+Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Sync.swift"; sourceTree = "<group>"; };
 		07553D2B1D1AB0DE00C5750E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077336BC1D1E5E260050E4A3 /* ContactSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSync.swift; sourceTree = "<group>"; };
+		077336BE1D1E5E8E0050E4A3 /* ContactSyncDeleget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSyncDeleget.swift; sourceTree = "<group>"; };
 		2C74AD6341DBCFB040645E37 /* Pods-ContactManger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactManger.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactManger/Pods-ContactManger.release.xcconfig"; sourceTree = "<group>"; };
 		56A9A82D0F5748A74ED42D31 /* Pods-ContactManger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactManger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactManger/Pods-ContactManger.debug.xcconfig"; sourceTree = "<group>"; };
 		848EE759FAF3D2929A4CFEA8 /* Pods_ContactManger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactManger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +141,7 @@
 		07553CD61D1AB00F00C5750E /* ContactManger */ = {
 			isa = PBXGroup;
 			children = (
+				077336BB1D1E5DA30050E4A3 /* SyncContacts */,
 				07553D2A1D1AB0C700C5750E /* Resources */,
 				07553D191D1AB07900C5750E /* Sync */,
 				07553D021D1AB06100C5750E /* ViewControllers */,
@@ -169,7 +174,6 @@
 		07553CF31D1AB04C00C5750E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				07553CF41D1AB05600C5750E /* ContactsThingy.swift */,
 				07553CF51D1AB05600C5750E /* String+Email.swift */,
 				07553CF61D1AB05600C5750E /* ContactEntry.swift */,
 				07553CF71D1AB05600C5750E /* Contacts.swift */,
@@ -219,6 +223,16 @@
 				07553D2B1D1AB0DE00C5750E /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		077336BB1D1E5DA30050E4A3 /* SyncContacts */ = {
+			isa = PBXGroup;
+			children = (
+				077336BC1D1E5E260050E4A3 /* ContactSync.swift */,
+				07553CF41D1AB05600C5750E /* ContactsThingy.swift */,
+				077336BE1D1E5E8E0050E4A3 /* ContactSyncDeleget.swift */,
+			);
+			name = SyncContacts;
 			sourceTree = "<group>";
 		};
 		8B0FDB78114DA757DB687C30 /* Pods */ = {
@@ -390,6 +404,7 @@
 				07553D0F1D1AB06F00C5750E /* AddressBookViewController.swift in Sources */,
 				07553D101D1AB06F00C5750E /* ContactsViewController.swift in Sources */,
 				07553D001D1AB05600C5750E /* Model.xcdatamodel in Sources */,
+				077336BF1D1E5E8E0050E4A3 /* ContactSyncDeleget.swift in Sources */,
 				07553CF11D1AB04300C5750E /* UIViewController+Alerts.swift in Sources */,
 				07553CFF1D1AB05600C5750E /* PhoneNumbers.swift in Sources */,
 				07553D261D1AB08500C5750E /* locking.swift in Sources */,
@@ -405,6 +420,7 @@
 				07553CFB1D1AB05600C5750E /* ContactsThingy.swift in Sources */,
 				07553CFC1D1AB05600C5750E /* String+Email.swift in Sources */,
 				07553D011D1AB05600C5750E /* EmailAddresses.swift in Sources */,
+				077336BD1D1E5E260050E4A3 /* ContactSync.swift in Sources */,
 				07553D121D1AB06F00C5750E /* PhoneNumber.swift in Sources */,
 				07553D231D1AB08500C5750E /* DATAStack.swift in Sources */,
 				07553D181D1AB06F00C5750E /* UpdateContactViewController.swift in Sources */,
